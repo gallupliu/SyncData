@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: cannal-sync-redis
+  profiles:
+    active: dev
+  es:
+    hosts: 127.0.0.1
+#  datasource:
+#    driverClassName: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1/dianpingdb
+#    username: root
+#    password: root
+server:
+  port: 22222
+
+
+
